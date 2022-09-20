@@ -19,6 +19,7 @@ public class ManipulaNumerosR {
             System.out.println("5 - Compara números");
             System.out.println("6 - Media dos alunos");
             System.out.println("7 - Calcular o custo de carro");
+            System.out.println("8 - Calcular o Crédito");
             System.out.println("0 - Sair");
             System.out.println("Selecione a opção pretendida");
             op = ler.nextInt();
@@ -48,6 +49,9 @@ public class ManipulaNumerosR {
                     break;
                 case 7:
                     Carro.calculaValorFinal();
+                    break;
+                case 8:
+                    Credito.calculaCredito();
                     break;
                 default: System.out.println("Insira opção válida");
             }
